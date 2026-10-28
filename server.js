@@ -8,7 +8,7 @@ const sharp = require("sharp");
 
 const PORT = process.env.PORT || 3000;
 const API = "https://api.stats.fm/api/v1/users/";
-const MAX_SIZE = 258;
+const MAX_SIZE = 125;
 const NOW_CACHE_MS = 6000;       // share results between requests for the same user
 const MOSAIC_CACHE_MAX = 150;    // cached cover mosaics (keyed by image url + size)
 const FETCH_TIMEOUT_MS = 8000;
