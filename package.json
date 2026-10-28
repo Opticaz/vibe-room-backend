@@ -1,0 +1,15 @@
+{
+  "name": "vibe-statsfm-backend",
+  "version": "1.0.0",
+  "description": "Now-playing + album cover mosaic backend for the Vibe Room Roblox game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
